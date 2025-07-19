@@ -15,13 +15,13 @@ function Home() {
           <p id="hero-text">Achieve your Dream Style</p>
           <button className="hero-button">Book Now</button>
         </div>
-        <img src="/h1_hero1.jpg.webp" alt="img" className="hero-img" />
+        <img src="./h1_hero1.jpg.webp" alt="img" className="hero-img" />
       </header>
       <section className="about poppins-bold">
         <ul className="about-list">
           <div>
             <span>
-              <img src="/check_mark.svg" alt="check" id="checks" />
+              <img src="./check_mark.svg" alt="check" id="checks" />
             </span>
             <li className="about-item">
               <p>the majority have suffered</p>
@@ -31,7 +31,7 @@ function Home() {
           </div>
           <div>
             <span>
-              <img src="/check_mark.svg" alt="check" id="checks" />
+              <img src="./check_mark.svg" alt="check" id="checks" />
             </span>
             <li className="about-item">
               <p>Psum available be the majority have</p>
@@ -40,7 +40,7 @@ function Home() {
             </li>
           </div>
           <span>
-            <img src="/check_mark.svg" alt="check" id="checks" />
+            <img src="./check_mark.svg" alt="check" id="checks" />
           </span>
           <li className="about-item">
             <p>Available be the majority have suffered</p>
@@ -48,7 +48,7 @@ function Home() {
             <p>humour.</p>
           </li>
           <span>
-            <img src="/check_mark.svg" alt="check" id="checks" />
+            <img src="./check_mark.svg" alt="check" id="checks" />
           </span>
           <li className="about-item">
             <p>Humour available be the majority have</p>
@@ -77,12 +77,12 @@ function Home() {
       </section>
       <section className="prices">
         <div class="grid-container">
-          <img src="barber1.jpg.webp" class="grid-pic" alt="Pic1" />
-          <img src="barber2.jpg.webp" class="grid-pic" alt="Pic2" />
-          <img src="barber3.jpg.webp" class="grid-pic" alt="Pic3" />
-          <img src="barber4.jpg.webp" class="grid-pic" alt="Pic4" />
-          <img src="barber5.jpg.webp" class="grid-pic" alt="Pic5" />
-          <img src="barber6.jpg.webp" class="grid-pic" alt="Pic6" />
+          <img src="./barber1.jpg.webp" class="grid-pic" alt="Pic1" />
+          <img src="./barber2.jpg.webp" class="grid-pic" alt="Pic2" />
+          <img src="./barber3.jpg.webp" class="grid-pic" alt="Pic3" />
+          <img src="./barber4.jpg.webp" class="grid-pic" alt="Pic4" />
+          <img src="./barber5.jpg.webp" class="grid-pic" alt="Pic5" />
+          <img src="./barber6.jpg.webp" class="grid-pic" alt="Pic6" />
         </div>
         <div className="prices-stroke"></div>
         <div className="prices-text-container poppins-bold">
@@ -119,14 +119,14 @@ function Home() {
             ALL WE DO FOR YOU
           </h1>
         </div>
-        <img src="about2.jpg.webp" alt="" id="service-img" />
+        <img src="./about2.jpg.webp" alt="" id="service-img" />
       </section>
       <section className="card-section">
         <div className="overlay">
           <div className="card-container">
             <div className="card">
               <img
-                src="/services1.svg"
+                src="./services1.svg"
                 alt="Card Image 1"
                 className="card-img"
               />
@@ -138,7 +138,7 @@ function Home() {
             </div>
             <div className="card">
               <img
-                src="/services2.svg"
+                src="./services2.svg"
                 alt="Card Image 2"
                 className="card-img"
               />
@@ -150,7 +150,7 @@ function Home() {
             </div>
             <div className="card">
               <img
-                src="/services3.svg"
+                src="./services3.svg"
                 alt="Card Image 3"
                 className="card-img"
               />
@@ -163,11 +163,11 @@ function Home() {
           </div>
         </div>
         <div className="display-container">
-          <img src="/instra1.jpg.webp" alt="" />
-          <img src="/instra2.jpg.webp" alt="" />
-          <img src="/instra3.jpg.webp" alt="" />
-          <img src="/instra4.jpg.webp" alt="" />
-          <img src="/barber5.jpg.webp" alt="" />
+          <img src="./instra1.jpg.webp" alt="" />
+          <img src="./instra2.jpg.webp" alt="" />
+          <img src="./instra3.jpg.webp" alt="" />
+          <img src="./instra4.jpg.webp" alt="" />
+          <img src="./barber5.jpg.webp" alt="" />
         </div>
       </section>
       <section className="testimonial">
