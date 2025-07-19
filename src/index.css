@@ -1,0 +1,857 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+  scrollbar-width: none;
+  color: #fff;
+  /* Default text color */
+  overflow-x: hidden;
+}
+
+.luckiest-guy-regular {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* Desktop-View Styles */
+
+@media (min-width: 1024px) {
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color:#150303;
+    color: #fff;
+    /* Limit width of navbar content */
+    margin: 0 auto;
+    /* Center the navbar content */
+    position: fixed;
+    /* Make the navbar fixed */
+    top: 0;
+    /* Position it at the top */
+    left: 0;
+    /* Align to the left */
+    right: 0;
+    /* Align to the right */
+    width: 100%;
+    /* Ensure it spans full width */
+    z-index: 1000;
+    /* Ensure it stays on top of other content */
+  }
+
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #fff;
+  }
+
+  .navbar-logo img {
+    height: 40px;
+    margin-right: 0.5rem;
+  }
+
+  .navbar-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+
+  .navbar-links li {
+    margin-left: 1.5rem;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+
+  .nav-link:hover {
+    color: #ff0000;
+  }
+
+  .navbar-button {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+    margin-left: 2rem;
+  }
+
+  .navbar-button:hover {
+    background-color: #cc0000;
+  }
+
+
+
+  /* Hero Section */
+  .hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    margin: 0 auto;
+    min-height: calc(100vh - 80px);
+    gap: 2rem;
+    background-color: #150303;
+  }
+
+  .hero-content {
+    flex: 1;
+    padding: 2rem;
+    text-align: left;
+  }
+
+  #hero-logo {
+    height: 60px;
+
+    width: auto;
+    margin-bottom: 1rem;
+    color: #ff0000;
+
+  }
+
+  .luckiest-guy-regular {
+    font-family: 'Luckiest Guy', cursive;
+
+    font-size: 3.5rem;
+
+    font-weight: 400;
+
+    line-height: 1.1;
+    margin: 0;
+
+    color: #fff;
+    text-transform: uppercase;
+
+  }
+
+  .luckiest-guy-regular:first-of-type {
+    margin-top: 1rem;
+
+  }
+
+
+  #hero-text {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: #ccc;
+  }
+
+  .hero-button {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 1rem 2.5rem;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+
+  .hero-button:hover {
+    background-color: #cc0000;
+  }
+
+  .hero-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    object-fit: cover;
+  }
+
+  /* About Section Styles */
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow items to wrap on smaller screens */
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+    /* More vertical padding */
+  
+    margin: 0 auto;
+    background-color:  #f8f8f8;
+    /* White background for this section */
+    color: #000;
+    /* Black text for this section */
+    gap: 2rem;
+    /* Space between columns/items */
+  }
+
+  .about-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex: 1;
+    /* Allow list to take up space */
+    min-width: 300px;
+    /* Ensure it doesn't get too narrow */
+  }
+
+  .about-list>div {
+    /* Target the div wrapping the icon and li */
+    display: flex;
+    align-items: flex-start;
+    /* Align icon and text at the top */
+    margin-bottom: 1rem;
+    /* Space between list items */
+  }
+
+  /* The previous `about-list > span` rule is no longer needed as the HTML structure is now consistent */
+
+
+  #checks {
+    width: 24px;
+    /* Size of the checkmark icon */
+    height: 24px;
+    margin-right: 0.75rem;
+    /* Space between icon and text */
+    color: #ff0000;
+    /* Red color for the checkmark */
+    flex-shrink: 0;
+    /* Prevent icon from shrinking */
+  }
+
+  .about-item {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+    /* Slightly muted text color */
+    flex: 1;
+    /* Allow text to take remaining space */
+  }
+
+  .about-item p {
+    margin: 0;
+    color:#000;
+    /* Remove default paragraph margins within list item */
+  }
+
+
+  #about-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    object-fit: cover;
+    flex: 1;
+    /* Allow image to take up space */
+    min-width: 300px;
+    /* Ensure image doesn't get too narrow */
+  }
+
+  .about-text-container {
+    flex: 1;
+    /* Allow text container to take up space */
+    min-width: 300px;
+    /* Ensure it doesn't get too narrow */
+    text-align: left;
+    padding: 1rem;
+  }
+
+  .about-stroke {
+    width: 50px;
+    /* Length of the red stroke */
+    height: 3px;
+    background-color: #ff0000;
+    /* Red color */
+    margin-bottom: 1rem;
+    /* Space below the stroke */
+  }
+
+  .about-text h1.luckiest-guy-regular {
+    color: #000;
+    /* Black heading for this section */
+    font-size: 2.5rem;
+    /* Adjust size for about section */
+    margin: 0;
+    /* Remove default margin */
+  }
+
+  .about-text p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+
+  #about-btn {
+    background-color: #ff0000;
+    /* Red button */
+    color: #fff;
+    padding: 1rem 2.5rem;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+
+  #about-btn:hover {
+    background-color: #cc0000;
+  }
+
+  /* PRICE SECTION */
+
+  /* Prices Section Styles */
+  .prices {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 4rem 2rem;
+
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    color: #000;
+    gap: 2rem;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   
+    flex: 2;
+    min-width: 400px;
+  }
+
+  .grid-pic {
+    width: 100%;
+    height: 200px;
+  
+    object-fit: cover;
+   
+    border-radius: 0.5rem;
+  }
+
+  .prices-stroke {
+    width: 50px;
+    height: 3px;
+    background-color: #ff0000;
+    margin-bottom: 1rem;
+  }
+
+  .prices-text-container {
+    flex: 1;
+    /* Allow text container to take up space */
+    min-width: 300px;
+    text-align: left;
+    padding: 1rem;
+  }
+
+  .prices-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    /* Extra bold as per screenshot */
+    font-size: 2rem;
+    color: #000;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+  }
+
+  .dash {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    /* Lighter color for the dash line */
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-size: 0.8rem;
+    letter-spacing: -2px;
+    /* Spread out the underscores */
+  }
+
+  .prices-list {
+    list-style: none;
+    /* Ensure no default list styling */
+    padding: 0;
+    margin: 0;
+  }
+
+  .price-item {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    /* Semi-bold for item name */
+    font-size: 1.1rem;
+    color:#000;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.5rem;
+    position: relative;
+    /* For the dotted line */
+    padding-bottom: 0.5rem;
+    /* Space for the dotted line */
+  }
+
+  .price-item::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  
+  
+  }
+
+  .item-cost {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #ff0000;
+    white-space: none;
+    margin-left: 1rem;
+  }
+
+  #price {
+    font-weight: 700;
+    color: #000;
+    /* Make the actual price bolder */
+  }
+
+  /* Services Section Styles */
+  .services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+    margin: 0 auto;
+    background-color:#f8f8f8;
+    /* Black background */
+    color: #fff;
+    gap: 2rem;
+  }
+
+  .services-text {
+    flex: 1;
+    min-width: 300px;
+    text-align: right;
+    /* Text aligned right as per screenshot */
+    padding: 1rem;
+  }
+
+  .services-stroke {
+    width: 50px;
+    height: 3px;
+    background-color: #ff0000;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    /* Push stroke to the right */
+  }
+
+  .services-text-h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    /* Extra bold */
+    font-size: 2.5rem;
+    color:#000;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin: 0;
+  }
+
+  #service-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    object-fit: cover;
+    flex: 1;
+    min-width: 300px;
+  }
+
+ .card-section {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.overlay {
+  background: url('/about2.jpg.webp') no-repeat center center/cover;
+  background-color: rgba(0, 0, 0, 0.85);
+  background-blend-mode: overlay;
+  padding: 60px 20px;
+}
+
+.card-section {
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* ==== Overlay Section (Dark background with cards) ==== */
+.overlay {
+  background: url('/about2.jpg.webp') no-repeat center center/cover;
+  background-color: rgba(0, 0, 0, 0.88); /* fallback color */
+  background-blend-mode: overlay;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1100px;
+}
+
+.card {
+  background-color: #1a0a0a;
+  position: relative;
+  padding: 30px 20px;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+  width: 280px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+.card::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left:0;
+  width:100%;
+  height: 0%;
+  background-color: #f8f8f8;
+  transition: height 1s;
+  z-index: 1;
+}
+
+.card:hover::before{
+  height: 100%;
+   color:black;
+}
+.card:hover{
+  color:black;
+  transform: translateY(-8px);
+}
+
+.card-img {
+  width: 45px;
+  margin-bottom: 15px;
+  filter: invert(18%) sepia(97%) saturate(6735%) hue-rotate(2deg) brightness(95%) contrast(118%);
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  font-size: 0.85rem;
+  color: #a8a8a8;
+  line-height: 1.4;
+}
+
+/* ==== Image Gallery Section ==== */
+.display-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -5px;
+}
+
+.display-container img {
+  width: 20%;
+  height: 250px;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+  transition: transform 0.3s ease;
+}
+
+.display-container img:hover {
+  transform: scale(1.02);
+}
+
+
+
+
+/* Testimonial Section */
+
+  .testimonial {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.testimonial-h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  color: #0f0101;
+}
+
+.testimonial-h1::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px;
+  background-color: red;
+  margin: 8px auto 0;
+  border-radius: 2px;
+}
+
+.testimonial-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.box {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 25px;
+  max-width: 300px;
+  min-height: 220px;
+  text-align: left;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  position: relative;
+}
+
+.box::before {
+  content: '★★★★★';
+  color: red;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.box p {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.author img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.author span {
+  font-size: 0.9rem;
+  color: #111;
+  font-weight: 500;
+}
+
+
+  /* Footer design */
+
+  .footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:#150303;
+  padding: 50px 20px;
+  flex-wrap: wrap;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-section,
+.footer-center {
+  margin: 20px;
+}
+
+.footer-section h3,
+.footer-center h2 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.footer-section p,
+.footer-center p {
+  color: #bbb;
+  margin: 5px 0;
+  font-size: 0.95rem;
+}
+
+.icon, .logo-icon {
+  font-size: 24px;
+  color: red;
+  margin-bottom: 10px;
+}
+
+.footer-center h2 {
+  font-size: 1.5rem;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  background-color: #2a1a1a;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.3s;
+}
+
+.social-icons a:hover {
+  background-color: red;
+}
+
+}
+
+/* Mobile View */
+@media (max-width: 1023px) 
+{
+  *{
+    display: none;
+  }
+}
