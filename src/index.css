@@ -124,8 +124,6 @@
 }
 
 /* Desktop-View Styles */
-
-@media (min-width: 1024px) {
   .navbar-container {
     display: flex;
     justify-content: space-between;
@@ -846,7 +844,7 @@
   background-color: red;
 }
 
-}
+
 
 /* Mobile View */
 @media (max-width: 1023px) 
