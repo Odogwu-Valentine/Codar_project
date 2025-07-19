@@ -1,18 +1,14 @@
-import { useState } from "react";
+
 import Footer from "./Footer";
 
 function Home() {
-  const [activeIndex, setActiveIndex] = useState(null);
 
-  const handleclick = (index) => {
-    setActiveIndex(index == activeIndex ? null : index);
-  };
 
   return (
     <>
       <header className="hero">
         <div className="hero-content">
-          <img src="/scissors.svg" alt="Logo" id="hero-logo" />
+         
           <h1 className="luckiest-guy-regular">WE'RE THE</h1>
           <h1 className="luckiest-guy-regular">LAST OF</h1>
           <h1 className="luckiest-guy-regular">BREED</h1>
