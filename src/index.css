@@ -124,7 +124,7 @@
 }
 
 /* Desktop-View Styles */
-@media (min-width: 1024px) {
+
   .navbar-container {
     display: flex;
     justify-content: space-between;
@@ -846,18 +846,14 @@
 .social-icons a:hover {
   background-color: red;
 }
-}
+
 
 
 
 /* Mobile View */
 
   @media (max-width: 1024px) {
-  *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
+
     .navbar-container {
     flex-direction: column;
     padding: 2rem;
