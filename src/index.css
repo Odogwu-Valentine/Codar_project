@@ -124,6 +124,7 @@
 }
 
 /* Desktop-View Styles */
+@media (min-width: 1024px) {
   .navbar-container {
     display: flex;
     justify-content: space-between;
@@ -155,7 +156,9 @@
     font-size: 1.5rem;
     color: #fff;
   }
-
+  .navbar__menu-icon{
+    display: none;
+  }
   .navbar-logo img {
     height: 40px;
     margin-right: 0.5rem;
@@ -843,6 +846,7 @@
 .social-icons a:hover {
   background-color: red;
 }
+}
 
 
 
@@ -940,7 +944,7 @@
   .hero-img {
       display: none;
   }
-}
+
   /* About Section */
 
     .about {
@@ -1057,3 +1061,4 @@
     width:50%;
     display: flex;
    }
+  }
