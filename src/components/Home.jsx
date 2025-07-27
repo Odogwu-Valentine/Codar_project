@@ -8,7 +8,7 @@ function Home() {
     <>
       <header className="hero">
         <div className="hero-content">
-         
+         <img src="/scissors.svg" alt="" id="hero-scissors"/>
           <h1 className="luckiest-guy-regular">WE'RE THE</h1>
           <h1 className="luckiest-guy-regular">LAST OF</h1>
           <h1 className="luckiest-guy-regular">BREED</h1>
@@ -39,7 +39,7 @@ function Home() {
               <p> injected humour.</p>
             </li>
           </div>
-          <span>
+          <div>          <span>
             <img src="./check_mark.svg" alt="check" id="checks" />
           </span>
           <li className="about-item">
@@ -47,6 +47,8 @@ function Home() {
             <p>alteration in some form, by injected</p>
             <p>humour.</p>
           </li>
+          </div>
+          <div>
           <span>
             <img src="./check_mark.svg" alt="check" id="checks" />
           </span>
@@ -55,6 +57,7 @@ function Home() {
             <p>uffered alteration in some form, by</p>
             <p>injected</p>
           </li>
+          </div>
         </ul>
         <img
           src="about1.jpg.webp"
@@ -163,9 +166,9 @@ function Home() {
           </div>
         </div>
         <div className="display-container">
-          <img src="./instra1.jpg.webp" alt="" />
-          <img src="./instra2.jpg.webp" alt="" />
-          <img src="./instra3.jpg.webp" alt="" />
+          <img src="./instra1.jpg.webp" alt="" id='instra1'/>
+          <img src="./instra2.jpg.webp" alt="" id='instra2'/>
+          <img src="./instra3.jpg.webp" alt="" id='instra3'/>
           <img src="./instra4.jpg.webp" alt="" />
           <img src="./barber5.jpg.webp" alt="" />
         </div>

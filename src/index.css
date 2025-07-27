@@ -847,9 +847,213 @@
 
 
 /* Mobile View */
-@media (max-width: 1023px) 
-{
+
+  @media (max-width: 1024px) {
   *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+    .navbar-container {
+    flex-direction: column;
+    padding: 2rem;
+    
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+  }
+
+  .navbar-logo {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left:10px;
+    top: 10px;
+  }
+
+  .navbar-links {
+    margin-top: 10%;
+    top: 60px; 
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
     display: none;
   }
+  .navbar-links.active{
+    display: flex;
+    width:100%;
+    height: auto;
+  }
+
+  .navbar-links li {
+    margin: 0.75rem 0;
+  }
+
+  .navbar-button {
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 0;
+  }
+  .navbar__menu-icon{
+    display: block;
+    cursor: pointer;
+    font-size: 2rem;
+    color: #fff;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+
+  /* HEADER SECTION */
+  .hero {
+   
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding-top:20%;
+    position: relative;
+    top:20%;
+  }
+
+  .hero-content {
+    padding: 1rem;
+    padding-left: 0;
+    text-align: left;
+  }
+
+  .luckiest-guy-regular {
+    font-size: 2.25rem; /* scale down for mobile */
+  }
+
+  #hero-text {
+    font-size: 1rem;
+    margin: 1rem 0;
+  }
+
+  .hero-button {
+    
+    padding: 0.75rem 1.5rem;
+  }
+
+  .hero-img {
+      display: none;
+  }
 }
+  /* About Section */
+
+    .about {
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1rem;
+    }
+
+    .about-list {
+      width: 100%;
+      text-align: center;
+    }
+
+    .about-item {
+      text-align: left;
+    }
+
+    #about-img {
+      width: 100%;
+      height: auto;
+      margin-top: 1rem;
+    }
+
+    .about-text-container {
+      text-align: center;
+      padding: 0;
+    }
+    .about-text h1.luckiest-guy-regular {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .about-stroke {
+      width: 40px;
+      height: 3px;
+      margin: 0 auto 1rem;
+    }
+    #about-btn {
+      width: 100%;
+      padding: 0.75rem 1.5rem;
+      margin-top: 1rem;
+    }
+  /* Prices Section */
+    .prices {
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1rem;
+    }
+    .grid-container {
+      width: 100%;
+    }
+    .grid-pic {
+      width: 100%;
+      height: auto;
+    }
+    .prices-text-container {
+      text-align: center;
+      padding: 0;
+    }
+    .prices-text {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .dash {
+      font-size: 0.5rem;
+      margin: 0.5rem 0 1rem;
+    }
+    .prices-list {
+      width: 100%;
+      text-align: end;
+    }
+    .price-item { 
+      justify-content: center;
+      margin-bottom: 0.75rem;
+    }
+    .item-cost {
+      font-size: 1.1rem;
+      margin-left: 0;
+    }
+    #price {
+      font-weight: 700;
+      color: #000;
+    }
+    /* Services section   */
+   .services-container {
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1rem;
+    }
+    .services-text {
+      text-align: center;
+      padding: 0; }
+    .services-stroke {
+      width: 40px;
+      height: 3px;} 
+    .services-text-h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    #service-img {
+      width: 100%;
+      height: auto;
+    }
+    /* Card Section */
+   #instra3{
+    display: none;
+   }
+   #instra2{
+    display: none;
+   }
+   #instra1{
+    display: none;
+   }
+   .display-container img{
+    width:50%;
+    display: flex;
+   }

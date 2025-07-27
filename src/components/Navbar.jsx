@@ -1,12 +1,23 @@
+import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
 function App() {
+const [click, setClick] = useState(false);
+ const handleClick = () => {
+    setClick(!click);
+  };
+
   return (
     <nav className="navbar-container">
       <div className="navbar-logo">
         <img src="/logo.png.webp" alt="Logo" />
       </div>
-      <ul className="navbar-links ">
+      <div className="navbar__menu-icon" onClick={handleClick}>
+          <span className="material-symbols-outlined">
+            {click ? "close" : "menu"}
+          </span>
+        </div>
+      <ul className={`navbar-links ${click ? "active" : ""}`}>
         <li>
           <NavLink to="/" className="nav-link">Home</NavLink>
         </li>
