@@ -7,6 +7,10 @@ const [click, setClick] = useState(false);
     setClick(!click);
   };
 
+  const handleNavLinkClick = () => {
+    setClick(false);
+  }
+
   return (
     <nav className="navbar-container">
       <div className="navbar-logo">
@@ -19,22 +23,22 @@ const [click, setClick] = useState(false);
         </div>
       <ul className={`navbar-links ${click ? "active" : ""}`}>
         <li>
-          <NavLink to="/" className="nav-link">Home</NavLink>
+          <NavLink to="/" className="nav-link" onClick={handleNavLinkClick}>Home</NavLink>
         </li>
         <li>
-          <NavLink to="/About" className="nav-link">About</NavLink>
+          <NavLink to="/About" className="nav-link" onClick={handleNavLinkClick}>About</NavLink>
         </li>
         <li>
-          <NavLink to="/Services" className="nav-link">Services</NavLink>
+          <NavLink to="/Services" className="nav-link" onClick={handleNavLinkClick}>Services</NavLink>
         </li>
         <li>
-          <NavLink to="/Blog" className="nav-link">Blog</NavLink>
+          <NavLink to="/Blog" className="nav-link" onClick={handleNavLinkClick}>Blog</NavLink>
         </li>
         <li>
-          <NavLink to="/Gallery" className="nav-link">Gallery</NavLink>
+          <NavLink to="/Gallery" className="nav-link" onClick={handleNavLinkClick}>Gallery</NavLink>
         </li>
         <li>
-          <NavLink to="/Contact" className="nav-link">Contact</NavLink>
+          <NavLink to="/Contact" className="nav-link" onClick={handleNavLinkClick}>Contact</NavLink>
         </li>
         <button className="navbar-button">Free Qoute</button>
       </ul>
